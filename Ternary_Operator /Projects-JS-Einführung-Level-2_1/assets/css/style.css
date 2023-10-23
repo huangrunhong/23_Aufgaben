@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../font/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../font/Roboto-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(101, 186, 247);
+}
+
+section {
+  margin: 10% auto;
+  width: 40%;
+  background-color: rgb(246, 240, 229);
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  border-radius: 1rem;
+  align-items: center;
+}
+
+.text {
+  padding-block: 0.25rem;
+  border: 1px solid gray;
+  width: 100%;
+}
+.senden {
+  padding: 0.25rem 2rem;
+  font-family: Roboto-Regular;
+  font-size: 1rem;
+}
+h1 {
+  font-family: Roboto-Bold;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: Roboto-Regular;
+  font-size: 1.25rem;
+}
+
+.warning {
+  color: red;
+}
